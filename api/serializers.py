@@ -6,4 +6,4 @@ class AudioBookSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = AudioBook
-        fields = ('id', 'title', 'author', 'publication', 'audio_file', 'price')
+        fields = ('id', 'title', 'author', 'publication', 'audio_file', 'price', 'image')
